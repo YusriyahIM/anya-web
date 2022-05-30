@@ -1,25 +1,12 @@
-/* =====================================
-Template Name: 	Appland
-Author Name: Naimur Rahman
-Author Url: www.themebazzar.com
-Description: Appland - Creative App Landing HTML5 Template.
-Version:	1.0
-========================================*/
 /*======================================
 [ CSS Table of contents ]
 * Header CSS
 	+ Logo
 	+ Main Menu
-* Hero Section CSS
-	+ Hero Section 1 CSS
-	+ Hero Section 2 CSS
-	+ Hero Section 3 CSS
-	+ Hero Section 4 CSS
-* Promo CSS
+* Hero Section CSS (1)
 * Features CSS
 * Watch Video CSS
 * Screenshot CSS
-* Overview CSS
 * Testimonials CSS
 * Team CSS
 * Download CSS
@@ -32,7 +19,6 @@ Version:	1.0
 	+ Blog Single CSS
 	+ Blog Single Sidebar CSS
 * Contact CSS
-* Newslatter CSS
 * Clients CSS
 * Footer  CSS
 ========================================*/
@@ -203,7 +189,7 @@ Version:	1.0
 .demo-section .demo-content .check-btn {
   border-radius: 30px;
   background: #fff;
-  color: #755ce4;
+  color: #dd4767;
   box-shadow: 0px 3px 7px #00000040;
   font-weight: 600;
 }
@@ -248,7 +234,7 @@ Version:	1.0
   transition: all 0.4s ease;
 }
 .demo-thumb .single-thumb:hover a span {
-  color: #755ce4;
+  color: #dd4767;
 }
 /*=============================
 	/End Demos CSS 
@@ -389,583 +375,6 @@ Version:	1.0
 ===============================*/
 
 /*=============================
-	Start Hero Section 2 CSS 
-===============================*/
-.section-hero2 {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  width: 100%;
-  z-index: 1;
-  background-image: url("img/slider/hero-bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.section-hero2.overlay:before {
-  background: linear-gradient(45deg, #ff5d7f, #fe9fb4);
-  opacity: 0.9;
-}
-.section-hero2 .section-circle {
-  background: linear-gradient(45deg, #ff5d7f, #fe9fb4);
-}
-.section-hero2 .hero-content-wrap {
-  display: table;
-  height: 550px;
-  width: 100%;
-}
-.section-hero2 .hero-content {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  z-index: 200;
-}
-.section-hero2 .hero-content h1 {
-  font-size: 40px;
-  line-height: 48px;
-  color: #fff;
-  margin-bottom: 0;
-  font-weight: 700;
-}
-.section-hero2 .hero-content p {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.7;
-  padding: 20px 0;
-  color: #fff;
-}
-.section-hero2 .slider-action-btn {
-  display: block;
-  margin-bottom: 20px;
-}
-.section-hero2 .slider-action-btn a.softo-solid-btn {
-  background: #fff;
-  color: #333;
-  border: 1px solid #fff;
-  text-transform: capitalize;
-  margin-right: 15px;
-  padding: 10px 24px;
-  font-weight: 600;
-}
-.section-hero2 .slider-action-btn a.softo-solid-btn i {
-  margin-right: 3px;
-  font-size: 19px;
-  transform: translateY(1px);
-}
-.section-hero2 .slider-action-btn a.softo-solid-btn:hover {
-  border: 1px solid #fff;
-  color: #fff;
-  background: transparent;
-}
-.section-hero2 .slider-action-btn a.btn-icon {
-  font-size: 30px;
-  color: #fff;
-}
-.section-hero2 .slider-action-btn a.btn-icon:hover {
-  opacity: 0.8;
-}
-/* Phone Carousel css*/
-.section-hero2 .phone-carousel {
-  max-width: 400px;
-  margin: auto;
-  overflow: hidden;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  transform: scale(1) perspective(2006px) rotateY(35deg) rotateX(35deg) rotate(5deg);
-}
-.section-hero2 .phone-carousel .phone {
-  position: relative;
-  z-index: 5;
-  width: 100%;
-}
-.section-hero2 .phone-carousel .phone .header-slider {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  padding: 5% 11.75% 0 11.75%;
-  border-radius: 30px;
-}
-.section-hero2 .phone-carousel .phone .header-slider .item img {
-  cursor: -webkit-grab;
-  border-radius: 35px;
-}
-.section-hero2 .phone-carousel .owl-theme .owl-nav {
-  margin-top: 20px;
-}
-.section-hero2 .phone-carousel .owl-theme .owl-nav button {
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  margin: 1px;
-  color: #fff;
-  background: #281483;
-}
-.section-hero2 .phone-carousel .owl-theme .owl-nav button.owl-next {
-  border-radius: 0 30px 30px 0;
-}
-.section-hero2 .phone-carousel .owl-theme .owl-nav button.owl-prev {
-  border-radius: 30px 0 0 30px;
-}
-.section-hero2 .phone-carousel .owl-theme .owl-nav button:hover {
-  background: #281483;
-}
-.section-hero2 .phone-carousel .owl-theme .owl-nav button:focus,
-.phone-carousel .owl-theme .owl-nav button:active {
-  outline: none;
-  background: #281483;
-  color: #fff;
-  border: none;
-}
-.section-hero2 .phone-carousel .owl-theme .owl-dots {
-  position: absolute;
-  top: 48%;
-  left: 0;
-  margin: 0 !important;
-}
-
-.section-hero2 .phone-carousel .owl-theme .owl-dots .owl-dot {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #fff;
-  border: 1px solid transparent;
-  margin: 0 4px 7px 4px;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: all 0.25s;
-  -o-transition: all 0.25s;
-  transition: all 0.25s;
-}
-.section-hero2 .phone-carousel .owl-theme .owl-dots .owl-dot.active {
-  background-color: transparent;
-  border-color: #fff;
-  -webkit-transform: scale(1.35);
-  -moz-transform: scale(1.35);
-  -ms-transform: scale(1.35);
-  -o-transform: scale(1.35);
-  transform: scale(1.35);
-}
-.section-hero2 .phone-carousel .owl-theme .owl-dots .owl-dot span {
-  display: none;
-}
-.section-hero2 .slider-indicator {
-  padding: 0 20px;
-  text-align: center;
-  position: relative;
-  display: block;
-  z-index: 10;
-  margin-top: 5px;
-}
-.section-hero2 .slider-indicator ul li {
-  display: inline-block;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-  -webkit-transition: linear 0.1s;
-  transition: linear 0.1s;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 2px;
-}
-.section-hero2 .slider-indicator ul li:focus,
-.slider-indicator ul li:hover {
-  color: #281483;
-}
-.section-hero2 .indicator-color ul li {
-  background: #f9f9f9;
-  color: #281483;
-  border-radius: 2px;
-}
-.section-hero2 .indicator-color ul li:hover {
-  color: #fff;
-  background: #281483;
-}
-.section-hero2 .phone-carousel .phone .header-slider:before {
-  background: rgba(0, 0, 0, 0) url(../img/mockup_top.png) no-repeat scroll center center / cover;
-  border-radius: 0 0 50px 50px;
-  content: "";
-  height: 16px;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  top: 20px;
-  width: 50%;
-  z-index: 9;
-}
-/* Mobile slider css */
-.mobile-slider-area {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  z-index: 9;
-  margin-top: 50px;
-}
-.mobile-slider-area img {
-  margin: 0 auto;
-}
-
-.mobile-slider-area .img-responsive {
-  z-index: 99999;
-}
-.mobile-slider {
-  border-radius: 26px;
-  overflow: hidden;
-  position: absolute;
-  left: 20%;
-  top: 13px;
-  width: 60%;
-  z-index: 111;
-}
-.mobile-slider::before {
-  background-image: url("img/mockup_top.png");
-  border-radius: 0 0 50px 50px;
-  content: "";
-  height: 18px;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 50%;
-  z-index: 9;
-  /* left: -20px; */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.mobile-slider.owl-carousel .owl-item img {
-  max-width: 100%;
-  width: auto;
-}
-.section-shape {
-  bottom: -8px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  z-index: 1;
-}
-.section-shape img {
-  max-width: 100%;
-  min-width: 100%;
-  width: 100%;
-}
-.hero-slider-section .section-shape {
-  z-index: 0;
-}
-/*weave css*/
-.river-wave-area {
-  width: 100%;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.river-wave {
-  background: url("img/wave.svg") repeat-x;
-  position: absolute;
-  top: -100px;
-  width: 6400px;
-  height: 100px;
-  animation: river-wave 35s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
-}
-.river-wave:nth-of-type(2) {
-  top: -56px;
-  animation: river-wave 20s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
-  opacity: 1;
-}
-@keyframes river-wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
-}
-@keyframes swell {
-  0%,
-  100% {
-    transform: translate3d(0, -45px, 0);
-  }
-  50% {
-    transform: translate3d(0, 5px, 0);
-  }
-}
-/*=============================
-	/End Hero Section 2 CSS 
-===============================*/
-
-/*=============================
-	Start Hero Section 3 CSS 
-===============================*/
-.section-hero3 {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  width: 100%;
-  z-index: 1;
-  background-image: url("img/slider/hero-section-bg-4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 100px 0px;
-}
-.section-hero3:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  background-image: url("img/white-bottom.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 247px;
-  width: 100%;
-}
-.section-hero3.overlay:before {
-  background: linear-gradient(45deg, #ff5d7f, #fe9fb4);
-  opacity: 0.9;
-}
-.section-hero3 .hero-content {
-  position: relative;
-  vertical-align: middle;
-  margin-top: 172px;
-  display: block;
-}
-.section-hero3 .hero-content h1 {
-  font-size: 40px;
-  line-height: 48px;
-  color: #fff;
-  margin-bottom: 0;
-  font-weight: 700;
-}
-.section-hero3 .hero-content p {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.7;
-  padding: 20px 0;
-  color: #fff;
-}
-
-.section-hero3 .slider-action-btn {
-  display: block;
-  margin-bottom: 20px;
-}
-.section-hero3 .slider-action-btn a.softo-solid-btn {
-  background: #fff;
-  color: #333;
-  border: 1px solid #fff;
-  text-transform: capitalize;
-  margin-right: 15px;
-  padding: 10px 24px;
-  font-weight: 600;
-}
-.section-hero3 .slider-action-btn a.softo-solid-btn i {
-  margin-right: 3px;
-  font-size: 19px;
-  transform: translateY(1px);
-}
-.section-hero3 .slider-action-btn a.softo-solid-btn:hover {
-  border: 1px solid #fff;
-  color: #fff;
-  background: transparent;
-}
-.section-hero3 .slider-action-btn a.btn-icon {
-  font-size: 30px;
-  color: #fff;
-}
-.section-hero3 .slider-action-btn a.btn-icon:hover {
-  opacity: 0.8;
-}
-/*white indicator*/
-.white-indicator .owl-nav {
-  position: absolute;
-  margin-top: 0;
-  left: 0;
-}
-.white-indicator .owl-nav button {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  transition: all 0.3s ease-in;
-}
-.white-indicator.owl-theme .owl-nav [class*="owl-"] {
-  background: rgba(134, 151, 145, 0.22);
-  color: #fff;
-  margin: 2px;
-}
-.white-indicator.owl-theme .owl-nav [class*="owl-"]:hover {
-  background: rgba(249, 249, 249, 0.21);
-  color: #281483;
-}
-.white-indicator .owl-nav button span {
-  font-size: 16px;
-  line-height: 16px;
-  text-align: center;
-}
-.white-indicator .owl-nav button:focus {
-  outline: none;
-}
-/*=============================
-	/End  Hero Section 3 CSS 
-===============================*/
-
-/*=============================
-	Start Hero Section 4 CSS 
-===============================*/
-.section-hero4 {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  width: 100%;
-  z-index: 1;
-  background-image: url("img/slider/hero-section-bg-4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.section-hero4.section {
-  padding: 100px 0px 80px 0px;
-}
-.section-hero4::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0px;
-  background-image: url("img/shape3.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 296px;
-  width: 100%;
-  z-index: -1;
-}
-.section-hero4.overlay:before {
-  background: linear-gradient(45deg, #ff5d7f, #fe9fb4);
-  opacity: 0.9;
-  z-index: -3;
-}
-.section-hero4 .hero-c-head {
-  margin-top: 100px;
-}
-.section-hero4 .hero-content h1 {
-  font-size: 40px;
-  line-height: 48px;
-  color: #fff;
-  margin-bottom: 0;
-  font-weight: 700;
-}
-.section-hero4 .hero-content p {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.7;
-  padding: 20px 0;
-  color: #fff;
-}
-.section-hero4 .input-group {
-  position: relative;
-  display: table;
-  border-collapse: separate;
-  display: inline-block;
-  display: inherit;
-}
-.section-hero4 .input-group input {
-  height: 50px;
-  width: 100%;
-  border: none;
-  background: #fff;
-  color: #333;
-  display: inline-block;
-  padding: 0px 175px 0px 20px;
-  border-radius: 0px;
-}
-.section-hero4 .input-group button {
-  display: inline-block;
-  height: 50px;
-  width: 156px;
-  background: #333;
-  color: #fff;
-  font-weight: 600;
-  position: absolute;
-  right: 0;
-  z-index: 9;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  border-radius: 0px;
-}
-.section-hero4 .input-group button:hover {
-  background: #111;
-}
-/*=============================
-	/End Hero Section 4 CSS 
-===============================*/
-
-/*=============================
-	Start Promo CSS
-===============================*/
-.promo {
-  background: #fff;
-}
-.promo .single-promo {
-  box-shadow: 0px 0px 10px #00000012;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-.promo .single-promo:hover {
-  box-shadow: 0px 10px 30px #00000012;
-  transform: translateY(-10px);
-}
-.promo .single-promo .promo-content {
-  padding: 45px;
-}
-.promo .single-promo .promo-content i {
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  text-align: center;
-  background: #333;
-  color: #fff;
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-.promo .single-promo .promo-content .icon-one i {
-  background: #e166a5;
-}
-.promo .single-promo .promo-content .icon-two i {
-  background: #b162c1;
-}
-.promo .single-promo .promo-content .icon-three i {
-  background: #745ce5;
-}
-.promo .single-promo .promo-content h4 {
-  margin-bottom: 8px;
-  font-weight: 600;
-  font-size: 18px;
-}
-/*=============================
-	/ End Promo CSS
-===============================*/
-
-/*=============================
 	Start Features CSS
 ===============================*/
 .features {
@@ -1054,7 +463,7 @@ Version:	1.0
   line-height: 60px;
   border-radius: 100%;
   background: #fff;
-  color: #755ce4;
+  color: #dd4767;
   font-size: 20px;
   position: absolute;
   -webkit-transition: all 0.4s ease;
@@ -1064,7 +473,7 @@ Version:	1.0
   font-size: 15px;
 }
 .watch-video .video-play a:hover {
-  background: #755ce4;
+  background: #dd4767;
   color: #fff;
 }
 .watch-video .video-main .waves-block .waves {
@@ -1182,247 +591,6 @@ Version:	1.0
 ===============================*/
 
 /*=============================
-	Start Overview CSS
-===============================*/
-.overview-section {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  width: 100%;
-  z-index: 1;
-  background-image: url("img/slider/hero-section-bg-4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 100px 0px;
-}
-.overview-section.overlay:before {
-  background: linear-gradient(45deg, #ff5d7f, #fe9fb4);
-  opacity: 0.9;
-}
-.overview-section .section-title h2 {
-  color: #fff;
-}
-.overview-section .section-title h2:after {
-  background: #fff;
-}
-.overview-section .section-title p {
-  color: #fff;
-}
-.tab-content-wrap {
-  position: relative;
-  display: block;
-  width: 100%;
-  left: 0;
-  right: 0;
-  z-index: 9;
-}
-.overview-center-tab,
-.overview-heading {
-  position: relative;
-  display: block;
-  width: 100%;
-  z-index: 8;
-}
-.tab-content-wrap .overview-mac-image {
-  z-index: 99;
-  max-width: none;
-}
-.tab-right-side .tab-content .tab-pane img {
-  position: absolute;
-  left: 145px;
-  top: 47px;
-  width: 913px;
-  z-index: 99;
-  max-width: none;
-}
-.tab-right-side .tab-content img {
-  position: absolute;
-  top: 0;
-}
-.tabs-left {
-  border-bottom: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-bottom: 0;
-  list-style: none;
-}
-.tabs-left > .nav-tabs > li {
-  float: none;
-  margin-bottom: 15px;
-}
-
-.tabs-left > .nav-tabs > li > a {
-  margin-right: 0;
-  border-radius: 0px;
-  padding: 20px;
-  border: none;
-}
-
-.tabs-left > .nav-tabs,
-.nav-center > .nav-tabs {
-  border-bottom: none;
-}
-
-.tabs-left .nav-tabs > li.active,
-.nav-center .nav-tabs > li.active {
-  background: rgba(0, 0, 0, 0.12) !important;
-  border: none;
-  border-radius: 0px;
-  color: #fff;
-}
-.tabs-left > .nav-tabs > li > a i {
-  float: left;
-  margin-right: 15px;
-  color: #fff;
-  position: absolute;
-  top: calc(50% - 20px);
-  font-size: 35px;
-}
-.tabs-left .nav-tabs > li.active > a,
-.tabs-left .nav-tabs > li > a:focus,
-.tabs-left .nav-tabs > li > a:hover,
-.nav-center .nav-tabs > li.active > a,
-.nav-center .nav-tabs > li > a:focus,
-.nav-center .nav-tabs > li > a:hover {
-  background: transparent !important;
-  border: none;
-  border-radius: 0px;
-}
-.nav-center .nav-tabs > li > a i {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 20px;
-  line-height: 20px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 8px;
-}
-.nav-center .nav-tabs > li.active > a,
-.nav-center .nav-tabs > li.active > a:focus,
-.nav-center .nav-tabs > li.active > a:hover {
-  color: #fff;
-}
-.nav-center > .nav-tabs > li > a {
-  margin-right: 0;
-  border-radius: 0px;
-  border: none;
-  padding: 12px 15px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 15px;
-  display: inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.nav-tabs-list-item {
-  margin-left: 55px;
-  display: list-item;
-  height: auto;
-  overflow: hidden;
-  vertical-align: middle;
-  color: rgba(255, 255, 255, 0.8);
-}
-.nav-tabs-list-item h6 {
-  color: #fff;
-  font-size: 16px;
-  line-height: 18px;
-}
-/*overview feature list*/
-.overview-feature-content {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 50%;
-  flex: 1 1 50%;
-  position: relative;
-  display: block;
-  color: #fff;
-}
-.overview-feature-content h6 {
-  color: #fff;
-  font-size: 20px;
-}
-.overview-feature-content p {
-  color: #fff;
-  font-size: 14px;
-  margin-top: 20px;
-}
-.overview-list {
-  -js-display: flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.overview-list li {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 50%;
-  flex: 1 1 50%;
-  max-width: 50%;
-  margin-top: 30px;
-  font-size: 16px;
-  line-height: 22px;
-  display: inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-.overview-list li i {
-  margin-right: 10px;
-  font-size: 30px;
-  line-height: 30px;
-}
-
-.overview-feature-content-image {
-  margin: 30px 0;
-}
-/*software quick overview two*/
-.nav-center {
-  text-align: center;
-  margin-bottom: 30px;
-}
-.nav-center .nav-tabs {
-  border-bottom: none;
-}
-.nav-center ul.nav {
-  display: inline-block;
-}
-.nav-center ul.nav li {
-  display: inline-block;
-}
-.tab-content-wrap-two {
-  position: relative;
-  display: block;
-}
-.tab-content-wrap-two .tab-content {
-  left: 145px;
-  top: 47px;
-  width: 913px;
-  z-index: 99;
-}
-.tab-content-wrap-two .tab-content img {
-  position: absolute;
-  top: 0;
-}
-/*=============================
-	/End Overview CSS
-===============================*/
-
-/*=============================
 	Start Testimonials CSS
 ===============================*/
 .testimonials {
@@ -1481,7 +649,7 @@ Version:	1.0
 .testimonials .single-testimonial .name span {
   display: block;
   font-size: 14px;
-  color: #755ce4;
+  color: #dd4767;
   font-weight: 400;
   margin-top: 5px;
   text-transform: capitalize;
@@ -1816,7 +984,7 @@ Version:	1.0
 .pricing-table .single-table .amount {
   font-size: 35px;
   font-weight: 400;
-  color: #755ce4;
+  color: #dd4767;
   margin-bottom: 15px;
   background: linear-gradient(45deg, #ff5d7f, #fe9fb4);
   background-clip: border-box;
@@ -1851,7 +1019,7 @@ Version:	1.0
   margin-top: 10px;
 }
 .pricing-table .single-table .button .btn {
-  background: #755ce4;
+  background: #dd4767;
 }
 .pricing-table .single-table .button .btn:hover {
   color: #fff;
@@ -2016,7 +1184,7 @@ Version:	1.0
   color: #2c2d3f;
 }
 .blog .single-news .news-body h2 a:hover {
-  color: #755ce4;
+  color: #dd4767;
 }
 .blog .single-news .news-content p {
   font-weight: 400;
@@ -2043,7 +1211,7 @@ Version:	1.0
 .blog .single-news .news-body .btn {
   font-weight: 400;
   margin-top: 15px;
-  color: #755ce4;
+  color: #dd4767;
   padding: 0;
 }
 .blog .single-news .news-body .btn i {
@@ -2120,7 +1288,7 @@ Version:	1.0
 }
 .pagination .pagination-list li.active a,
 .pagination .pagination-list li:hover a {
-  background: #755ce4;
+  background: #dd4767;
   color: #fff;
 }
 .pagination .pagination-list li a i {
@@ -2185,7 +1353,7 @@ Version:	1.0
   border: none;
   font-size: 14px;
   color: #fff;
-  background: #755ce4;
+  background: #dd4767;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -2211,7 +1379,7 @@ Version:	1.0
   color: #333;
 }
 .blog-sidebar .categor-list li a:hover {
-  color: #755ce4;
+  color: #dd4767;
 }
 /* Recent Post */
 .blog-sidebar .recent-post {
@@ -2265,7 +1433,7 @@ Version:	1.0
   display: block;
 }
 .blog-sidebar .single-post .content h5 a:hover {
-  color: #755ce4;
+  color: #dd4767;
 }
 /* Blog Tags */
 .blog-sidebar .side-tags {
@@ -2287,7 +1455,7 @@ Version:	1.0
 }
 .blog-sidebar .side-tags .tag a:hover {
   color: #fff;
-  background: #755ce4;
+  background: #dd4767;
   border-color: transparent;
 }
 /* Blog Single CSS */
@@ -2341,10 +1509,10 @@ Version:	1.0
 }
 .blog-single .blog-meta span a i {
   margin-right: 10px;
-  color: #755ce4;
+  color: #dd4767;
 }
 .blog-single .blog-meta span a:hover {
-  color: #755ce4;
+  color: #dd4767;
 }
 .blog-single .content p {
   margin-bottom: 25px;
@@ -2414,7 +1582,7 @@ Version:	1.0
 }
 .blog-single .share-social .content-tags .tag-inner li a:hover {
   color: #fff;
-  background: #755ce4;
+  background: #dd4767;
 }
 .blog-single .share-social .share-inner ul {
   float: right;
@@ -2514,7 +1682,7 @@ Version:	1.0
   font-weight: 400;
   float: right;
   background: #33333312;
-  color: #755ce4;
+  color: #dd4767;
   padding: 5px 12px;
   border-radius: 3px;
   text-transform: capitalize;
@@ -2522,7 +1690,7 @@ Version:	1.0
   margin-top: -42px;
 }
 .blog-single .single-comment .content a:hover {
-  background: #755ce4;
+  background: #dd4767;
   color: #fff;
 }
 /* Comment Form */
@@ -2614,7 +1782,7 @@ Version:	1.0
   margin-bottom: 0px;
 }
 .footer-address ul li a:hover {
-  color: #755ce4;
+  color: #dd4767;
 }
 .footer-address ul li i {
   margin-right: 5px;
@@ -2641,7 +1809,7 @@ Version:	1.0
   height: 150px;
 }
 .contact-us-form .form-group .form-control:focus {
-  border-color: #755ce4;
+  border-color: #dd4767;
 }
 /* Mail Success */
 .mail-success .mail-inner {
@@ -2664,7 +1832,7 @@ Version:	1.0
   -webkit-text-fill-color: transparent;
 }
 .mail-success .mail-inner .btn {
-  background: #755ce4;
+  background: #dd4767;
   color: #fff;
   border-radius: 30px;
 }
@@ -2674,94 +1842,6 @@ Version:	1.0
 /*=============================
 	/End Contact Us CSS
 ===============================*/
-
-/*=======================
-   Start Newslatter CSS
-=========================*/
-.newslatter {
-  background-image: url("img/download-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.newslatter.overlay:before {
-  opacity: 0.9;
-  background: linear-gradient(45deg, #ff5d7f, #fe9fb4);
-}
-.newslatter .inner {
-  padding: 100px 0;
-}
-.newslatter .content {
-  text-align: center;
-}
-.newslatter .content h2 {
-  color: #fff;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-.newslatter .content p {
-  color: #fff;
-  margin: 20px 0 30px 0;
-}
-.newslatter .mail {
-  position: relative;
-}
-.newslatter .mail .mail-input {
-  height: 50px;
-  line-height: 50px;
-  width: 73%;
-  padding: 0 157px 0 25px;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 30px;
-  width: 100%;
-  border-radius: 5px;
-  border: none;
-  background: #fff;
-  color: #333;
-}
-.newslatter .mail .button {
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-.newslatter .mail .button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 50px;
-  width: 135px;
-  color: #fff;
-  background: linear-gradient(45deg, #ff5d7f, #fe9fb4);
-  border: none;
-  box-shadow: none;
-  text-shadow: none;
-  display: block;
-  font-weight: 500;
-  border-radius: 30px;
-  text-transform: uppercase;
-  font-size: 13px;
-  text-align: center;
-  background: #fff;
-  color: #333;
-  border-radius: 0 4px 4px 0;
-  border-left: 1px solid #3333332b;
-}
-.newslatter .mail .button:hover {
-  background: #f0f0f0;
-}
-.newslatter .mail .button a {
-  color: #fff;
-}
-.newslatter .mail .button a i {
-}
-
-/*=======================
-   / End Newslatter CSS
-=========================*/
 
 /*=============================
 	Clients CSS 
@@ -2838,7 +1918,7 @@ Version:	1.0
   margin-right: 15px;
   border-radius: 30px;
   background: #fff;
-  color: #755ce4;
+  color: #dd4767;
   font-weight: 600;
 }
 .error-page .button .btn:hover {
