@@ -8,42 +8,59 @@
     <meta name="keywords" content="SITE KEYWORDS HERE" />
     <meta name="description" content="" />
     <meta name="copyright" content="Anya" />
+    <meta
+      name="description"
+      content="Anya merupakan aplikasi monitoring nutrisi agar anak terhindar dari stunting dengan memberikan Recall data makan anak, grafik tumbuh kembang, daftar komposisi bahan makanan, daftar bahan makanan, serta informasi yang berkaitan dengan stunting"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39165363-8"></script> -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      // gtag("config", "UA-39165363-8");
+    </script>
 
     <!-- Title Tag -->
     <title>Anya - Stunting Monitoring App</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="img/icon.png" />
+    <link rel="icon" type="image/x-icon" href="src/assets/img/icon.png" />
 
     <!-- Web Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,700i,800,900&display=swap" rel="stylesheet" />
 
     <!-- Anya CSS -->
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="src/assets/css/bootstrap.min.css" />
     <!-- Bootstrap Theme CSS -->
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="src/assets/css/bootstrap-theme.min.css" />
     <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="src/assets/css/fontawesome.min.css" />
     <!-- Slicknav CSS -->
-    <link rel="stylesheet" href="css/slicknav.min.css" />
+    <link rel="stylesheet" href="src/assets/css/slicknav.min.css" />
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="src/assets/css/animate.min.css" />
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="src/assets/css/magnific-popup.css" />
     <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="src/assets/css/owl.carousel.min.css" />
     <!-- Owl Theme Default CSS -->
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="src/assets/css/owl.theme.default.min.css" />
 
     <!-- Anya Stylesheet -->
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="src/assets/css/normalize.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="src/assets/base.css" />
+    <link rel="stylesheet" href="src/assets/css/responsive.css" />
   </head>
   <body>
     <!-- Preloader -->
-    <div class="preloader">
+    <div class="preloader" hidden>
       <div class="preloader-inner">
         <div class="preloader-icon">
           <span></span>
@@ -62,7 +79,7 @@
             <div class="col-md-3 col-sm-3 col-xs-12">
               <!-- Logo -->
               <div class="logo">
-                <a href="index.html"><img src="img/logo-light.png" alt="logo.png" /></a>
+                <a href="index.html"><img src="src/assets/img/logo-light.png" alt="logo.png" /></a>
               </div>
               <!--/ End Logo -->
               <div class="mobile-nav"></div>
@@ -119,7 +136,7 @@
           </div>
           <div class="col-md-6">
             <div class="hero-image">
-              <img src="img/faq-right.png" alt="hero-image" class="img-responsive" />
+              <img src="src/assets/img/faq-right.png" alt="hero-image" class="img-responsive" />
             </div>
           </div>
         </div>
@@ -183,7 +200,7 @@
           <!-- Freature Image -->
           <div class="col-md-4 hidden-sm hidden-xs">
             <div class="feature-image">
-              <img src="img/feature-image.png" class="pos-hcenter img-responsive" alt="" />
+              <img src="src/assets/img/feature-image.png" class="pos-hcenter img-responsive" alt="" />
             </div>
           </div>
           <!-- /End Freature Image -->
@@ -251,22 +268,22 @@
               <div class="screen-carousel owl-carousel">
                 <!-- Single Slide -->
                 <div class="single-slide">
-                  <img src="img/screenshorts/top-screen-1.png" class="img-fluid" alt="#" />
+                  <img src="src/assets/img/screenshorts/top-screen-1.png" class="img-fluid" alt="#" />
                 </div>
                 <!-- /End Single Slide -->
                 <!-- Single Slide -->
                 <div class="single-slide">
-                  <img src="img/screenshorts/top-screen-2.png" class="img-fluid" alt="#" />
+                  <img src="src/assets/img/screenshorts/top-screen-2.png" class="img-fluid" alt="#" />
                 </div>
                 <!-- /End Single Slide -->
                 <!-- Single Slide -->
                 <div class="single-slide">
-                  <img src="img/screenshorts/top-screen-3.png" class="img-fluid" alt="#" />
+                  <img src="src/assets/img/screenshorts/top-screen-3.png" class="img-fluid" alt="#" />
                 </div>
                 <!-- /End Single Slide -->
                 <!-- Single Slide -->
                 <div class="single-slide">
-                  <img src="img/screenshorts/top-screen-8.png" class="img-fluid" alt="#" />
+                  <img src="src/assets/img/screenshorts/top-screen-8.png" class="img-fluid" alt="#" />
                 </div>
                 <!-- /End Single Slide -->
               </div>
@@ -296,7 +313,7 @@
             <!-- Single Team -->
             <div class="single-team">
               <div class="team-head">
-                <img src="img/team/team-1.jpg" alt="" />
+                <img src="src/assets/img/team/team-1.jpg" alt="" />
                 <div class="team-hover">
                   <!-- Team Social -->
                   <ul class="social">
@@ -323,7 +340,7 @@
             <!-- Single Team -->
             <div class="single-team">
               <div class="team-head">
-                <img src="img/team/team-2.jpg" alt="" />
+                <img src="src/assets/img/team/team-2.jpg" alt="" />
                 <div class="team-hover">
                   <!-- Team Social -->
                   <ul class="social">
@@ -350,7 +367,7 @@
             <!-- Single Team -->
             <div class="single-team">
               <div class="team-head">
-                <img src="img/team/team-3.jpg" alt="" />
+                <img src="src/assets/img/team/team-3.jpg" alt="" />
                 <div class="team-hover">
                   <!-- Team Social -->
                   <ul class="social">
@@ -377,7 +394,7 @@
             <!-- Single Team -->
             <div class="single-team">
               <div class="team-head">
-                <img src="img/team/team-4.jpg" alt="" />
+                <img src="src/assets/img/team/team-4.jpg" alt="" />
                 <div class="team-hover">
                   <!-- Team Social -->
                   <ul class="social">
@@ -404,7 +421,7 @@
             <!-- Single Team -->
             <div class="single-team">
               <div class="team-head">
-                <img src="img/team/team-1.jpg" alt="" />
+                <img src="src/assets/img/team/team-1.jpg" alt="" />
                 <div class="team-hover">
                   <!-- Team Social -->
                   <ul class="social">
@@ -431,7 +448,7 @@
             <!-- Single Team -->
             <div class="single-team">
               <div class="team-head">
-                <img src="img/team/team-1.jpg" alt="" />
+                <img src="src/assets/img/team/team-1.jpg" alt="" />
                 <div class="team-hover">
                   <!-- Team Social -->
                   <ul class="social">
@@ -588,7 +605,7 @@
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="faq-img">
-              <img src="img/faq-right.png" alt="#" />
+              <img src="src/assets/img/faq-right.png" alt="#" />
             </div>
           </div>
         </div>
@@ -613,7 +630,7 @@
               <!-- Single Blog -->
               <div class="single-news">
                 <div class="news-head">
-                  <img src="img/blog/blog1.jpg" alt="#" />
+                  <img src="src/assets/img/blog/blog1.jpg" alt="#" />
                 </div>
                 <div class="news-body">
                   <div class="news-content">
@@ -628,7 +645,7 @@
               <!-- Single Blog -->
               <div class="single-news">
                 <div class="news-head">
-                  <img src="img/blog/blog2.jpg" alt="#" />
+                  <img src="src/assets/img/blog/blog2.jpg" alt="#" />
                 </div>
                 <div class="news-body">
                   <div class="news-content">
@@ -643,7 +660,7 @@
               <!-- Single Blog -->
               <div class="single-news">
                 <div class="news-head">
-                  <img src="img/blog/blog3.jpg" alt="#" />
+                  <img src="src/assets/img/blog/blog3.jpg" alt="#" />
                 </div>
                 <div class="news-body">
                   <div class="news-content">
@@ -658,7 +675,7 @@
               <!-- Single Blog -->
               <div class="single-news">
                 <div class="news-head">
-                  <img src="img/blog/blog1.jpg" alt="#" />
+                  <img src="src/assets/img/blog/blog1.jpg" alt="#" />
                 </div>
                 <div class="news-body">
                   <div class="news-content">
@@ -673,7 +690,7 @@
               <!-- Single Blog -->
               <div class="single-news">
                 <div class="news-head">
-                  <img src="img/blog/blog2.jpg" alt="#" />
+                  <img src="src/assets/img/blog/blog2.jpg" alt="#" />
                 </div>
                 <div class="news-body">
                   <div class="news-content">
@@ -688,7 +705,7 @@
               <!-- Single Blog -->
               <div class="single-news">
                 <div class="news-head">
-                  <img src="img/blog/blog3.jpg" alt="#" />
+                  <img src="src/assets/img/blog/blog3.jpg" alt="#" />
                 </div>
                 <div class="news-body">
                   <div class="news-content">
@@ -703,7 +720,7 @@
               <!-- Single Blog -->
               <div class="single-news">
                 <div class="news-head">
-                  <img src="img/blog/blog1.jpg" alt="#" />
+                  <img src="src/assets/img/blog/blog1.jpg" alt="#" />
                 </div>
                 <div class="news-body">
                   <div class="news-content">
@@ -718,7 +735,7 @@
               <!-- Single Blog -->
               <div class="single-news">
                 <div class="news-head">
-                  <img src="img/blog/blog2.jpg" alt="#" />
+                  <img src="src/assets/img/blog/blog2.jpg" alt="#" />
                 </div>
                 <div class="news-body">
                   <div class="news-content">
@@ -733,7 +750,7 @@
               <!-- Single Blog -->
               <div class="single-news">
                 <div class="news-head">
-                  <img src="img/blog/blog3.jpg" alt="#" />
+                  <img src="src/assets/img/blog/blog3.jpg" alt="#" />
                 </div>
                 <div class="news-body">
                   <div class="news-content">
@@ -829,19 +846,19 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="owl-carousel clients-slider">
               <div class="single-clients">
-                <img src="img/client6.png" alt="#" />
+                <img src="src/assets/img/client6.png" alt="#" />
               </div>
               <div class="single-clients">
-                <img src="img/client1.png" alt="#" />
+                <img src="src/assets/img/client1.png" alt="#" />
               </div>
               <div class="single-clients">
-                <img src="img/client2.png" alt="#" />
+                <img src="src/assets/img/client2.png" alt="#" />
               </div>
               <div class="single-clients">
-                <img src="img/client3.png" alt="#" />
+                <img src="src/assets/img/client3.png" alt="#" />
               </div>
               <div class="single-clients">
-                <img src="img/client4.png" alt="#" />
+                <img src="src/assets/img/client4.png" alt="#" />
               </div>
             </div>
           </div>
@@ -860,7 +877,7 @@
               <!-- Single Widget -->
               <div class="single-footer f-about">
                 <div class="logo">
-                  <a href="index.html"><img src="img/logo-light.png" alt="#" /></a>
+                  <a href="index.html"><img src="src/assets/img/logo-light.png" alt="#" /></a>
                 </div>
                 <p class="text">
                   Excellence decisively nay man yet impression for contrasted remarkably. There spoke happy for you are out. Fertile how old address did showing because sitting replied six. Had arose guest visit going off child
@@ -955,32 +972,62 @@
 
     <!-- Jquery Plugins -->
     <!-- Jquery JS -->
-    <script src="js/jquery.min.js"></script>
+    <script src="src/assets/js/jquery.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="src/assets/js/bootstrap.min.js"></script>
     <!-- Slicknav JS -->
-    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="src/assets/js/jquery.slicknav.min.js"></script>
     <!-- Scroll Up JS -->
-    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="src/assets/js/jquery.scrollUp.min.js"></script>
     <!-- Owl Carousel JS -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="src/assets/js/owl.carousel.min.js"></script>
     <!-- Counter Up JS -->
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="src/assets/js/jquery.counterup.min.js"></script>
     <!-- Stellar JS -->
-    <script src="js/jquery.stellar.min.js"></script>
+    <script src="src/assets/js/jquery.stellar.min.js"></script>
     <!-- Parallax Scroll JS -->
-    <script src="js/parallax-scroll.min.js"></script>
+    <script src="src/assets/js/parallax-scroll.min.js"></script>
     <!-- Onepage Nav JS -->
-    <script src="js/onepage-nav.min.js"></script>
+    <script src="src/assets/js/onepage-nav.min.js"></script>
     <!-- Typed js -->
-    <script src="js/typed.min.js"></script>
+    <script src="src/assets/js/typed.min.js"></script>
     <!-- Wow JS -->
-    <script src="js/wow.min.js"></script>
+    <script src="src/assets/js/wow.min.js"></script>
     <!-- Easing JS -->
-    <script src="js/easing.min.js"></script>
+    <script src="src/assets/js/easing.min.js"></script>
     <!-- Magnific Popup JS -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="src/assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Main JS -->
-    <script src="js/main.js"></script>
+    <!-- <script src="src/main.js"></script> -->
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <div id="app">{{ message }}</div>
+
+    <script>
+      const { createApp } = Vue;
+
+      createApp({
+        data() {
+          return {
+            message: "Hello Vue!",
+          };
+        },
+      }).mount("#app");
+    </script>
+  </body>
+</html> -->
